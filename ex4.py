@@ -10,3 +10,8 @@ for i in range(2):
     print('Die {}:{}'.format(i+1, num_1))
 
 print('Total value: {}'.format(count))
+
+if count >= 7:
+    print('You won!')
+else:
+    print('You lost!')
