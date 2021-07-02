@@ -1,9 +1,13 @@
 import random
 
+
+print('What is your name?')
+print('>', end='')
+name = input()
+print('Hello, {}!'.format(name))
+
 print('Rolling the dice...')
-
 count = 0
-
 for i in range(2):
     num_1 = random.randrange(6)+1
     count += num_1
