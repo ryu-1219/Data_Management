@@ -16,6 +16,6 @@ for i in range(2):
 print('Total value: {}'.format(count))
 
 if count >= 7:
-    print('You won!')
+    print('{} won!'.format(name))
 else:
-    print('You lost!')
+    print('{} lost!'.format(name))
